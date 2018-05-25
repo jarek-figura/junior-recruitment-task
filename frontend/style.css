@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e8eff3;
+  font-family: 'Lato', sans-serif;
+  font-size: small;
+}
+
+.todo-app {
+  margin: 30px auto;
+  width: 300px;
+}
+
+.todo-title {
+  background-color: #2e3641;
+  height: 30px;
+  display: table-row;
+}
+
+ul.todo-list {
+  list-style: none;
+}
+
+.todo-list {
+  border-bottom: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  display: table;
+  background-color: #fefefe;
+}
+
+.todo-task {
+  display: table-row;
+  height: 30px;
+  border-bottom: 1px solid #e5eaec;
+}
+
+ul.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.col {
+  display: table-cell;
+  border-right: 1px solid #f1e2de;
+  vertical-align: middle;
+  color: #2e3641;
+}
+
+.col-title:last-child {
+  border-right: none;
+}
+
+.col:last-child {
+  border-right: none;
+}
+
+.todo-title .col {
+  background-color: #454f5c;
+}
+
+.col-1 {
+  width: 30px;
+  padding-left: 20px;
+}
+
+.col-title-1 {
+  width: 30px;
+  padding-left: 26px;
+}
+
+.col-2, .col-title-2 {
+  width: 10px;
+}
+
+.col-3, .col-title-3 {
+  padding-left: 10px;
+  width: 100%;
+  color: #2e3641;
+}
+
+.col-title {
+  color: #d9e3ea;
+  display: table-cell;
+  border-right: 1px solid #454f5c;
+  vertical-align: middle;
+}
+
+.done {
+  color: #9eb2c0;
+  text-decoration: line-through;
+}
+
+.todo-add {
+  height: 30px;
+  border-bottom: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  background-color: #fefefe;
+  display: table-row;
+}
